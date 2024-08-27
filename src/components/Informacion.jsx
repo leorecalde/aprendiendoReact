@@ -2,6 +2,7 @@ import Teoria from "./Teoria";
 
 const Informacion = () => {
   //aqui agrego la mayor parte de logica
+  const anio = new Date().getFullYear()
   return (
     //algo de logica
     <section>
@@ -16,7 +17,7 @@ const Informacion = () => {
         dinámicas y reactivas de forma modular, lo que facilita el desarrollo y
         el mantenimiento de aplicaciones a gran escala.
       </p>
-      <Teoria></Teoria>
+      <Teoria comision ='101i' anioActual = {anio}></Teoria>
     </section>
   );
 };
