@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Informacion from "./components/Informacion";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         ad tenetur suscipit facilis eos doloremque optio totam quae libero, ea
         dolore!
       </p>
+      {/*invocar mis componentes*/}
+      <Informacion></Informacion>
     </main>
   );
 }
