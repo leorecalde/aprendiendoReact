@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Informacion from "./components/Informacion";
-
+import Contador from "./components/Contador";
 function App() {
   return (
   <main className="container my-4">
@@ -13,6 +13,7 @@ function App() {
       </p>
       {/*invocar mis componentes*/}
       <Informacion></Informacion>
+      <Contador></Contador>
     </main>
   );
 }
