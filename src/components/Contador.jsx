@@ -6,7 +6,8 @@ const Contador = () => {
 const[numero, setNumero] = useState(1);
 
     const sumar = () =>{
-        numero++;
+        //numero++;
+        setNumero(numero + 1)
         console.log(numero)
     }
     return (
